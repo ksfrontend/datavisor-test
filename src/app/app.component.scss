@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.cell {
+  border: 1px solid #cacaca;
+  margin-left: -1px;
+  margin-top: -1px;
+  flex: 0 0 calc(100% / 32);
+  box-sizing: border-box;
+  padding: 10px;
+  background: white;
+}
+
+.dark-blue {
+  background: rgb(0, 0, 255);
+  color: white;
+}
+
+.light-blue {
+  background: rgb(0, 0, 76.5);
+  color: yellow;
+}
+

@@ -1,0 +1,11 @@
+<div class="container">
+  <h4>DataVisor Assignment</h4>
+  <div class="row">
+    <ng-container *ngFor="let cell of subnetData; let i = index">
+      <div class="cell"
+           [ngClass]="{'dark-blue': cell?.totalUser > 100, 'light-blue': cell?.totalUser > 30 && cell?.totalUser < 100 }">
+        {{i}}
+      </div>
+    </ng-container>
+  </div>
+</div>
